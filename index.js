@@ -11,7 +11,8 @@
 "use strict";
 var pako = require('pako');
 // Added buffer package for browsers
-var Buffer = require('buffer');
+var buffer = require('buffer');
+var Buffer = buffer.Buffer;
 
 
 //given bit, do 4byte alignment by finding the nearest number that's divisible by 4.
